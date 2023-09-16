@@ -1,0 +1,89 @@
+/* Card.css */
+[data-testid="movie-card"] {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* Cards should stack vertically */
+    align-items: center;
+    /* Center card content horizontally */
+    text-align: left;
+    /* Align text content to the left */
+    transition: transform 0.2s ease-in-out;
+}
+
+[data-testid='movie-poster'] {
+    max-width: 100%;
+    /* Ensure the image doesn't overflow the card */
+    height: auto;
+    /* Maintain image aspect ratio */
+    margin-bottom: 10px;
+    /* Space between image and other content */
+}
+
+
+/* Card.css */
+/* Add custom styles for the elements and Font Awesome icons */
+
+/* Style for the year element */
+[data-testid='movie-release-date'] {
+    color: #a9a9a9;
+    /* Gray color for year */
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 5px;
+    /* Add some spacing below the year */
+}
+
+/* Style for the title element */
+[data-testid='movie-title'] {
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 5px;
+    /* Add some spacing below the title */
+}
+
+/* Style for the ratings container */
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    text-align: left;
+    /* Align text content within ratings container to the left */
+}
+
+/* Style for the rating icon */
+.ratings_details i.fa-brands.fa-imdb {
+    color: orangered;
+    /* Yellow color for IMDb rating */
+    margin-right: 5px;
+    /* Add some spacing to the right of the icon */
+}
+
+/* Style for the percentage icon */
+.ratings_details i.fas.fa-users {
+    color: #007BFF;
+    /* Blue color for user ratings */
+    margin-right: 5px;
+    /* Add some spacing to the right of the icon */
+}
+
+/* Style for the tag element */
+.tag {
+    color: #a9a9a9;
+    /* Gray color for tag */
+    margin-top: 10px;
+    /* Add some spacing above the tag */
+    text-align: left;
+}
+
+.rating {
+    margin-right: 20px;
+}
+
+.percentage {
+    margin-right: 20px;
+}

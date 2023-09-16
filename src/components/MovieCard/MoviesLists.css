@@ -1,0 +1,13 @@
+.featured_movies {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+}
+
+.topList_movies {
+    max-width: 80%;
+    margin: auto;
+    height: 604px;
+    margin-top: 200px;
+}

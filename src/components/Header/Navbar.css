@@ -1,0 +1,138 @@
+.header_container {
+    max-width: 90%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 20px;
+    margin-left: 0;
+    padding-left: 0;
+    max-width: 100%;
+}
+
+/* Navbar.css */
+/* ... (existing styles) ... */
+
+.logo {
+    color: #ff4500; /* Set the icon color to red (adjust the color code as needed) */
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    padding-left: 0;
+    
+  }
+  
+  .logo i {
+    margin-right: 8px;
+  }
+  
+
+.image {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 600px;
+}
+
+.movie_details {
+    max-width: 30%;
+    margin-left: 20px;
+    align-items: last baseline;
+}
+
+.name_details {
+    font-size: 2.0rem;
+    font-weight: 700;
+    text-align: left;
+    color: black;
+}
+
+.ratings_details {
+    display: flex;
+}
+
+.ratings_details p {
+    margin-right: 30px;
+}
+
+.description_details {
+    font-weight: 500;
+    text-align: left;
+}
+
+.movie_details button {
+    background-color: red;
+    border-radius: 10%;
+    box-shadow: none;
+    color: white;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Style the search container with a transparent background */
+.search-container {
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Style the search input field */
+.search-input {
+    border: none;
+    padding: 10px;
+    width: 250px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Style the search button */
+.search-button {
+    background-color: #007bff;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the search icon */
+.fa-search {
+    font-size: 18px;
+}
+
+.rating i.fa-brands.fa-imdb {
+    color: orangered; /* Yellow color for IMDb rating */
+    margin-right: 5px; /* Add some spacing to the right of the icon */
+}
+
+/* Style for the percentage icon */
+.percentage i.fas.fa-users {
+    color: #007BFF; /* Blue color for user ratings */
+    margin-right: 5px; /* Add some spacing to the right of the icon */
+}
+
+
+.sign_in {
+    color: white;
+    font-weight: 700;
+}
